@@ -1,13 +1,6 @@
 "use client";
-import NextAutoFocusTextInputField from "@/app/components/nextui-input-fields/next-autofocus-text-input-fields";
-import NextSelectInputField from "@/app/components/nextui-input-fields/next-select-input-fields";
-import NextTextInputField from "@/app/components/nextui-input-fields/html-text-input";
-import NextTextReadOnlyInputField from "@/app/components/nextui-input-fields/next-text-readonly-input-fields";
-import Image from "next/image";
 
 import { useState } from "react";
-import { handleSelectChangeEvent } from "../items/utils";
-import { CustomerTable } from "@/app/components/customers/table";
 
 export default function Customers() {
   const [customercode, setCustomercode] = useState("");
@@ -40,7 +33,7 @@ export default function Customers() {
       <span className="text-3xl font-black leading-none text-gray-900 select-none pt-2">
         Custo<span className="text-indigo-600">mers</span>
       </span>
-      <div className="flex w-full">
+      {/* <div className="flex w-full">
         <div className="flex flex-col gap-4 mt-4 w-1/3">
           <div className="w-full px-3">
             <NextTextReadOnlyInputField
@@ -117,7 +110,7 @@ export default function Customers() {
         <div className="w-2/3 mt-1">
           <CustomerTable itemRowObjects={[]} />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

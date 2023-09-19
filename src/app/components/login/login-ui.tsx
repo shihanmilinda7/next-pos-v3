@@ -7,7 +7,6 @@ import { signIn, useSession } from "next-auth/react";
 import TextInputField from "../input-fields/text-input-fields";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
-import NextAutoFocusTextInputField from "../nextui-input-fields/next-autofocus-text-input-fields";
 // import { toast } from "react-toastify";
 import { BiSolidUser } from "react-icons/bi";
 import { AiFillUnlock } from "react-icons/ai";

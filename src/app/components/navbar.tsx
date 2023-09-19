@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import { ThemeSwitcher } from "./theme-switcher";
+// import { ThemeSwitcher } from "./theme-switcher";
 
 const TopNavbar = () => {
   const router = useRouter();
@@ -241,7 +241,7 @@ const TopNavbar = () => {
                 <button className={nonActiveStyle + " inline-flex"}>
                   <span className="mr-1">Guest</span>
                 </button>
-                <ThemeSwitcher />
+                {/* <ThemeSwitcher /> */}
               </div>
             </div>
           </ul>
